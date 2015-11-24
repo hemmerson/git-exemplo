@@ -1,0 +1,22 @@
+1º) instalar git:
+ - sudo apt-get install git-core
+
+2º) criar uma pasta no computador para fazer o clone do repositorio do github:
+	Usar o comando na pasta criada.
+ - git clone https://github.com/hemmerson/git-exemplo.git
+
+3º) instalar git-gui:
+ - sudo apt-get install gitk giggle git-cola git-gui gitg
+
+4º) colocar o nome do usuário e o email no git gui:
+ - git config --global user.name <nome>
+ - git config --global user.email <email>
+
+5º) abrir o git gui:
+ - git gui
+
+6º) fazer o commit da aplicação: 
+	* primeiro usa o pull, para verificar se não tem nada para pegar de novo do repositório:
+		- git pull origin master
+	* para fazer o upload para o repositório:
+		- git push origin master
